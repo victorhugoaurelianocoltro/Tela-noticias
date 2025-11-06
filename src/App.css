@@ -298,8 +298,17 @@
     padding: 0 20px;
   }
 
-  .carousel {
-    height: 300px;
+  .slide {
+    min-width: 100%;
+    height: 250px;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .news-card:first-child {
+    grid-row: auto;
   }
 
   .news-card {
